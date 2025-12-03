@@ -4,7 +4,7 @@ public class SairConfig : MonoBehaviour
 {
    public void IniciarJogo()
     {
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene(0);
     }
 }
 

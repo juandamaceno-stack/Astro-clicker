@@ -4,6 +4,6 @@ public class BotoesMenu : MonoBehaviour
 {
    public void IniciarJogo()
     {
-        SceneManager.LoadScene("jogo");
+        SceneManager.LoadScene("jogo(0)");
     }
 }
