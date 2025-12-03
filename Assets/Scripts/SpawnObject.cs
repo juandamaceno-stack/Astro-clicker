@@ -20,7 +20,7 @@ public class SpawnObject : MonoBehaviour
     void Update(){
 
         // Verifica se a posição do objeto instanciado está fora da câmera
-        if(transform.position.y < -7){
+        if(transform.position.y < -7 || transform.position.y > 7f){
 
             // Se sim, destrói o objeto
             Destroy(gameObject);
