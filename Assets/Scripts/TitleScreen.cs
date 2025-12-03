@@ -9,7 +9,7 @@ public class TitleScreen : MonoBehaviour
     {
 
         // Ao clicar na tela tela de título, troca para a cena principal do jogo
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Config");
 
     }    
        
