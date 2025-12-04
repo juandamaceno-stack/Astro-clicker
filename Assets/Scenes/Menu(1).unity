@@ -618,7 +618,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 421295206}
         m_TargetAssemblyTypeName: BotoesMenu, Assembly-CSharp
-        m_MethodName: IniciarJogo
+        m_MethodName: SairDoJogo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1437,9 +1437,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 421295208}
-        m_TargetAssemblyTypeName: TitleScreen, Assembly-CSharp
-        m_MethodName: OnMouseDown
+      - m_Target: {fileID: 421295206}
+        m_TargetAssemblyTypeName: BotoesMenu, Assembly-CSharp
+        m_MethodName: IrConfig
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

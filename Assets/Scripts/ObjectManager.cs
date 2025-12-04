@@ -17,7 +17,7 @@ public class ObjectManager : MonoBehaviour
 
 
   [SerializeField] Timer meuTimer;
-
+     public bool upgrade = false;
 
 
     // Método para clique no objeto principal
@@ -26,6 +26,11 @@ public class ObjectManager : MonoBehaviour
         if(meuTimer.acabou==false){
         // Aumenta o valor da variável de contagem
         clickCount++;
+
+        if(upgrade==true){
+          clickCount++;
+        }
+
 
         // Seta o valor atualizado da variável no texto da UI
         clickerCountText.text = clickCount.ToString();
