@@ -28,10 +28,6 @@ void Start(){
         if(meuTimer.acabou==false){
         // Aumenta o valor da variável de contagem
         clickCount++;
-        
-        if(upgrade==true){
-          clickCount++;
-        }
 
 
         // Seta o valor atualizado da variável no texto da UI
